@@ -13,6 +13,6 @@ enum class BottomNav(val route: String, val icon: Int, val screenName: String) {
         R.drawable.ic_baseline_account_circle_24,
         "Profile"),
     CART(NavScreen.CartScreen.route,
-        R.drawable.ic_baseline_shopping_cart_24,
+         R.drawable.ic_baseline_shopping_cart_24,
         "Cart"),
 }
